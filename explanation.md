@@ -1,0 +1,3 @@
+<h1>JavaScript</h1>
+<p>JavaScript (JS) is a lightweight, interpreted, programming language with first-class functions. Most well-known as the scripting language for Web pages, many non-browser environments also use it, such as node.js and Apache CouchDB. JS is a prototype-based, multi-paradigm, dynamic scripting language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles. </p>
+<p>JavaScript scripts are normally written with a .js extension</p>
