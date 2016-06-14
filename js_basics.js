@@ -63,7 +63,7 @@ var foo = true;  // foo is now a Boolean
     -Undefined(A variable that has not been assigned a value has the value undefined)
     -Number
     -String
-    
+
 //8. Unary operators
 //    example unary operator
     console.log ( typeof 4.5);
@@ -74,22 +74,22 @@ var foo = true;  // foo is now a Boolean
     - and(&&)
     - or(||)
     - not(!)
-    
+
 //    The && operator represents logical and. It is a binary operator, and its
 //      result is true only if both the values given to it are true.
           console . log ( true && false )
             // → false
           console . log ( true && true )
             // → true
-          
+
 //    The || operator denotes logical or. It produces true if either of the values
 //given to it is true.
           console . log ( false || true )
           // → true
           console . log ( false || false )
           // → false
-          
-          
+
+
 //10. Ternary
 console . log ( true ? 1 : 2) ;
     // → 1
@@ -110,7 +110,7 @@ console . log ( false == 0)
 
 
 //String operations
-//    1.0 Joining two or more strings 
+//    1.0 Joining two or more strings
 //        1.1.0 concat method
 var firstName = 'Harrison';
 var secondName = ' Kamau';
@@ -133,9 +133,9 @@ console.log(surname);
 //The Array object is used to store multiple values in a single variable:
 var cars = ["Saab", "Volvo", "BMW"];
 //using new keyword
-var cars = new Array("Saab", "Volvo", "BMW"); 
+var cars = new Array("Saab", "Volvo", "BMW");
 //Array indexes are zero-based: The first element in the array is 0, the second is 1, and so on
-//Array properties 
+//Array properties
 //1. constructor
 //The constructor property returns an array's constructor function:
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
@@ -146,7 +146,7 @@ function Array() { [native code] }
 //Return the length of an array:
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.length;
-//The result returns 
+//The result returns
 4
 //3. Prototype
 //Make a new array method that transforms array values into upper case:
@@ -168,7 +168,7 @@ var hege = ["Cecilie", "Lone"];
 var stale = ["Emil", "Tobias", "Linus"];
 var children = hege.concat(stale);
 //results to :
-['Cecilie','Lone','Emil,'Tobias','Linus'];
+['Cecilie','Lone','Emil','Tobias','Linus'];
 2. find() method
 // The find() method returns the value of the first element in an array that pass a test (provided as a function)
  var ages = [3, 10, 18, 20];
@@ -179,8 +179,8 @@ age.find(checkAdult); //returns 18
 3. forEach() method
 //getting the sum of the elements in an array
 var numbers = [10,20,30,40,50];
-var sum = 0; 
-numbers.forEach(function(number){ 
+var sum = 0;
+numbers.forEach(function(number){
     sum += number;
 });
 console.log(sum) >> 150
@@ -188,7 +188,7 @@ console.log(sum) >> 150
 3. indexOf() method
 //The indexOf() method searches the array for the specified item, and returns its position.
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
-var a = fruits.indexOf("Apple"); 
+var a = fruits.indexOf("Apple");
 //the result will be
 2
 
@@ -228,7 +228,7 @@ function getSum(total, num) {
 };
 numbers.reduce(getSum); //returns 125
 
-7. reverse() method 
+7. reverse() method
 //The reverse() method reverses the order of the elements in an array.
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.reverse();  // returns ['Mango','Apple','Orange','Banana']
@@ -247,7 +247,7 @@ fruits.unshift("Lemon","Pineapple"); // returns  ['Lemon','Pineapple','Banana','
 //The slice() method returns the selected elements in an array, as a new array object.
 //The slice() method selects the elements starting at the given start argument, and ends at, but does not include, the given end argument.
 var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
-var citrus = fruits.slice(1, 3); 
+var citrus = fruits.slice(1, 3);
 //the result of citrus will be:
 ['Orange','Lemon']
 
